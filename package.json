@@ -1,5 +1,6 @@
 {
-  "name": "maquinadeestado-one",
+  "homepage":"https://github.com/Angezul02/Maquinas-de-estado-react",
+  "name": "maquinas-de-estado-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,8 @@
     "xstate": "^4.35.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
